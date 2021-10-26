@@ -1,0 +1,28 @@
+POST http://localhost:7000/create_table/user
+
+###
+POST http://localhost:7000/create_user/user/add_record
+content-type: application/json
+
+{
+    "id":1,
+    "name":"jimpoack",
+    "age":45
+}
+
+###
+GET http://localhost:7000/user
+
+
+
+###
+PUT  http://localhost:7000/update/user/1
+content-type: application/json
+
+{
+    "name":"sssiiiaaa"
+}
+
+
+###
+DELETE  http://localhost:7000/delete/user/2

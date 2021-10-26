@@ -1,0 +1,33 @@
+POST  http://localhost:7000/create_table/gorre
+
+###
+POST  http://localhost:7000/create_record/gorre
+content-type: application/json
+
+{
+}
+
+###
+DELETE   http://localhost:7000/delete_table/gorre
+
+
+###
+DELETE   http://localhost:7000/delete_record/demon/1
+
+
+###
+PUT  http://localhost:7000/update/user/1
+content-type: application/json
+
+{
+    "name":"sai"
+}
+
+###
+GET http://localhost:7000/demon
+
+###
+GET http://localhost:7000/demon/lessthan/name/x
+
+###
+GET http://localhost:7000/abc/greaterthan/demon/h
